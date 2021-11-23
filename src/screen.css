@@ -1,0 +1,162 @@
+/* Our CSS file. */
+
+
+.container, .content {
+    width: 100%;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header{
+        width: 97%;
+        height: 150px;
+        margin: auto;
+        background-color: #6B5B95;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    header .my-logo{
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin: 30px 20px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    header .my-logo:hover{
+        border: 2px solid black;
+    }
+    
+    header #search-here{
+        float: right;
+        margin: 60px 30px;
+        height: 30px;
+        width: 20%;
+        border-radius: 5px;
+        outline: none;
+        border: 2px solid yellowgreen;
+    
+    }
+    
+    nav{
+        text-align: center;
+        padding-top: 100px;
+    }
+    nav a{
+        text-decoration: none;
+        margin: 2%;
+        font-size: 1.3rem;
+        cursor: pointer;
+        font-weight: 600;
+        color: #fff;
+    }
+    nav a:hover{
+        color: #000;
+        font-style: bold;
+    }
+    
+    header form .search-icon{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 60px;
+        top: 66px;
+        cursor: pointer;
+    }
+    .left-side-menu{
+        width: 15%;
+        height: auto;
+        display: inline-block;
+        background: black;
+        color: #fff;
+        vertical-align: top;
+        margin-left: 15px;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+    .left-side-menu ul{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .left-side-menu ul li{
+        margin: 30px 0;
+        font-size: 1.1rem;
+        font-weight: bold;
+        width: 90%;
+        cursor: pointer;
+    }
+    .left-side-menu ul li:hover{
+        color: yellow;
+    }
+    .right-aside{
+        width: 15%;
+        height: auto;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        position: absolute;
+        top: 165px;
+        right: 15px;
+    
+    }
+    
+    .right-aside ul{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    
+    .right-aside li{
+        margin: 30px 0;
+        font-size: 1.1rem;
+        font-weight: bold;
+        width: 90%;
+        cursor: pointer;
+    }
+    .right-aside li:hover{
+        color: yellow;
+    }
+    
+    #main-content-section{
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        margin-top: 15px;
+        margin-left: 3.14%;
+        align-content: center;
+        text-align: center;
+    }
+    
+    #main-content-section img{
+        width: 26%;
+        height: auto;
+        margin: 10px 5px;
+        cursor: pointer;
+    }
+    #main-content-section img:hover{
+        border-radius: 50px;
+        width: 26%;
+        height: 15%;
+        cursor: pointer;
+    }
+    
+    #page-footer{
+        width: 97%;
+        height: 20vh;
+        margin: 15px 15px 0 15px;
+        background-color: #5D6D7E;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    #page-footer p{
+        padding: 25px 30px;
+        font-size: 1.14rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
